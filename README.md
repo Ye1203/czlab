@@ -14,3 +14,6 @@ import paga_weight as pw
 pw.paga(adata,root = start_cell,connectivities_threshold=0.5)
 
 sc.pl.paga(adata, color = "connectivities_tree")
+
+## Updated paga_distance.py
+This is a new trajectory analysis algorithm, which is still under testing.
